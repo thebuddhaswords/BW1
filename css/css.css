@@ -438,7 +438,7 @@ footer {
 	position:relative;
 	left:6px;
 	top:0px;
-	width:830px; /* now the same width as main menu */
+	width:992px; /* now the same width as main menu */
 	height:36px;
 	z-index:8;
 	margin: 0 100% 2em 0; /* 100% runs the margin to the edge of the viewport */
