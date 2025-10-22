@@ -457,13 +457,22 @@ Mousetrap.bind("n", function (e) {
   document.getElementById("next-sutta").click();
 });
 
+Mousetrap.bind("P", function (e) {
+  document.getElementById("pali").click();
+});
+
 Mousetrap.bind("*", function (e) {
   document.getElementById("pali").click();
 });
 
 Mousetrap.bind("h", function (e) {
+  window.location.href = "../home/help.html";
+});
+
+Mousetrap.bind("H", function (e) {
   window.location.href = "../home/index.html";
 });
+
 
 Mousetrap.bind("?", function (e) {
   window.location.href = "../home/help.html";
