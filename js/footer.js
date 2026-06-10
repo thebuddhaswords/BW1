@@ -457,29 +457,20 @@ Mousetrap.bind("n", function (e) {
   document.getElementById("next-sutta").click();
 });
 
-Mousetrap.bind("P", function (e) {
-  document.getElementById("pali").click();
-});
-
 Mousetrap.bind("*", function (e) {
   document.getElementById("pali").click();
 });
 
-Mousetrap.bind("?", function (e) {
-  window.location.href = "./home/help.html";
+Mousetrap.bind("h", function (e) {
+  window.location.href = "../home/index.html";
 });
 
-Mousetrap.bind("H", function (e) {
-  window.location.href = "./home/index.html";
-});
-
-
 Mousetrap.bind("?", function (e) {
-  window.location.href = "./home/help.html";
+  window.location.href = "../home/help.html";
 });
 
 Mousetrap.bind("c", function (e) {
-  window.location.href = "./home/contact.html";
+  window.location.href = "../home/contact.html";
 });
 
 Mousetrap.bind("d", function (e) {
@@ -518,10 +509,10 @@ Mousetrap.bind("i", function (e) {
       // move from various vinaya books home to vi home
       window.location.href = "../vi/vi.html";
     } else if (bhikkhuRuleTypes.includes(secondPart)) {
-      // move from bhikkhu rule-type page to bhikkhu vibhanga home
+      // move from bhikkhu rule-type page to bhikkhu Vibhaṅga home
       window.location.href = "../vi/bu-vb.html";
     } else if (bhikkhuniRuleTypes.includes(secondPart)) {
-      // move from bhikkhu rule-type page to bhikkhu vibhanga home
+      // move from bhikkhu rule-type page to bhikkhu Vibhaṅga home
       window.location.href = "../vi/bi-vb.html";
     } else if (/\d/.test(secondPart)) {
       // if there is a number in the second part
